@@ -1,0 +1,171 @@
+/* ============================================
+   Dish Card
+   ============================================ */
+.dish-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  height: 100%;
+}
+
+.dish-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-3px);
+}
+
+.dish-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background-color: var(--color-bg);
+}
+
+/* ============================================
+   Cart Item Row
+   ============================================ */
+.cart-item-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  transition: box-shadow 0.15s ease;
+}
+
+.cart-item-row:hover {
+  box-shadow: var(--shadow-sm);
+}
+
+@media (max-width: 768px) {
+.cart-item-row {
+    flex-wrap: wrap;
+  }
+}
+
+.cart-item-row-media {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background-color: var(--color-bg);
+}
+
+.cart-item-row-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cart-item-row-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cart-item-row-info > strong,
+.cart-item-row-info > p {
+  margin: 0;
+}
+
+.cart-item-row-qty {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-shrink: 0;
+}
+
+.cart-item-row-qty-value {
+  min-width: 24px;
+  text-align: center;
+  font-weight: 600;
+  font-size: var(--text-sm);
+  color: var(--color-text);
+}
+
+.cart-item-row-total {
+  min-width: 80px;
+  text-align: right;
+  font-weight: 700;
+  color: var(--color-text);
+  flex-shrink: 0;
+}
+
+@keyframes ds-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1024px) {
+  .ds-grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ds-footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* === Batch separator === */
+
+/* ==========================================================================
+   Restaurant Order App — Design System (Batch 3/3)
+   ========================================================================== */
+
+/* ---------- input (base form control) ---------- */
+input {
+  display: block;
+  width: 100%;
+  padding: var(--space-sm) var(--space-md);
+  font-size: var(--text-base);
+  font-family: inherit;
+  color: var(--color-text);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
+  line-height: 1.5;
+}
+
+@keyframes ds-skeleton-shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes ds-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ---------- Responsive adjustments ---------- */
+@media (max-width: 768px) {
+  .ds-section {
+    padding: var(--space-lg) 0;
+  }
+
+  .ds-section-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ds-stat {
+    padding: var(--space-md);
+  }
+
+  .ds-stat-value {
+    font-size: var(--text-lg);
+  }
+}

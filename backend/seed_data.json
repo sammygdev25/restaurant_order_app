@@ -1,0 +1,818 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "username": "demo",
+      "email": "demo@example.com",
+      "password": "pbkdf2_sha256$1200000$FvnGsDN39ryQgEXsBl4mH1$cPJyu3fleGzobTBaEXrt8S3JNB6nyJajpPQmZjK3HY4=",
+      "first_name": "Demo",
+      "last_name": "User",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "date_joined": "2024-01-02T09:00:00Z"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "username": "sophia_m",
+      "email": "sophia.martinez@gmail.com",
+      "password": "pbkdf2_sha256$600000$saltSophia$9g4lRx0Ke3n2oM1sU7wYz1aC5bB8tE0fG2hI4jK6lMn=",
+      "first_name": "Sophia",
+      "last_name": "Martinez",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "date_joined": "2024-01-05T10:15:00Z"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "username": "james_k",
+      "email": "james.kim@yahoo.com",
+      "password": "pbkdf2_sha256$600000$saltJames$0h5mSy1Lf4o3pN2tV8xZ2bD6cC9uF1gH3iJ5kLm7nOp=",
+      "first_name": "James",
+      "last_name": "Kim",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "date_joined": "2024-01-08T14:20:00Z"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "username": "aria_patel",
+      "email": "aria.patel@outlook.com",
+      "password": "pbkdf2_sha256$600000$saltAria$1i6nTz2Mg5p4qO3uW9yA3cE7dD0vG2hI4jK6lMn8oPq=",
+      "first_name": "Aria",
+      "last_name": "Patel",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "date_joined": "2024-01-10T11:45:00Z"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "username": "marcus_t",
+      "email": "marcus.thompson@gmail.com",
+      "password": "pbkdf2_sha256$600000$saltMarcus$2j7oUa3Nh6q5rP4vX0zB4dF8eE1wH3iJ5kLm9oPq0rS=",
+      "first_name": "Marcus",
+      "last_name": "Thompson",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "date_joined": "2024-01-12T16:30:00Z"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+      "username": "elena_rossi",
+      "email": "elena.rossi@icloud.com",
+      "password": "pbkdf2_sha256$600000$saltElena$3k8pVb4Oi7r6sQ5wY1aC5eG9fF2xI4jK6lMn0pQr1sT=",
+      "first_name": "Elena",
+      "last_name": "Rossi",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "date_joined": "2024-01-15T08:10:00Z"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+      "username": "david_chen",
+      "email": "david.chen@gmail.com",
+      "password": "pbkdf2_sha256$600000$saltDavid$4l9qWc5Pj8s7tR6xZ2bD6fH0gG3yJ5kLm1oPq2rS3tU=",
+      "first_name": "David",
+      "last_name": "Chen",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "date_joined": "2024-01-18T19:05:00Z"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 8,
+    "fields": {
+      "username": "priya_singh",
+      "email": "priya.singh@gmail.com",
+      "password": "pbkdf2_sha256$600000$saltPriya$5m0rXd6Qk9t8uS7yA3cE7gI1hH4zK6lMn2pQr3sT4uV=",
+      "first_name": "Priya",
+      "last_name": "Singh",
+      "is_staff": false,
+      "is_active": true,
+      "is_superuser": false,
+      "date_joined": "2024-01-20T12:00:00Z"
+    }
+  },
+  {
+    "model": "api.category",
+    "pk": 1,
+    "fields": {
+      "name": "Appetizers",
+      "description": "Small plates to start your meal, from crispy bites to fresh dips.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.category",
+    "pk": 2,
+    "fields": {
+      "name": "Soups & Salads",
+      "description": "Fresh greens and warm soups made daily with seasonal ingredients.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.category",
+    "pk": 3,
+    "fields": {
+      "name": "Pasta",
+      "description": "House-made pasta tossed in classic and modern Italian sauces.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.category",
+    "pk": 4,
+    "fields": {
+      "name": "Pizza",
+      "description": "Wood-fired pizzas baked in our stone oven with San Marzano tomatoes.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.category",
+    "pk": 5,
+    "fields": {
+      "name": "Main Courses",
+      "description": "Hearty entrees featuring premium cuts and slow-cooked specialties.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.category",
+    "pk": 6,
+    "fields": {
+      "name": "Seafood",
+      "description": "Daily catch prepared with Mediterranean flair.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.category",
+    "pk": 7,
+    "fields": {
+      "name": "Desserts",
+      "description": "Sweet endings crafted in-house by our pastry chef.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.category",
+    "pk": 8,
+    "fields": {
+      "name": "Beverages",
+      "description": "Wines, craft cocktails, and non-alcoholic refreshments.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.dish",
+    "pk": 1,
+    "fields": {
+      "name": "Crispy Calamari Fritti",
+      "description": "Lightly fried calamari rings served with spicy marinara and lemon aioli.",
+      "price": "12.50",
+      "category": 1,
+      "image": "/img/dishes/crispy-calamari-fritti.jpg",
+      "is_available": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.dish",
+    "pk": 2,
+    "fields": {
+      "name": "Classic Caesar Salad",
+      "description": "Romaine hearts, shaved parmesan, garlic croutons, and house Caesar dressing.",
+      "price": "9.75",
+      "category": 2,
+      "image": "/img/dishes/classic-caesar-salad.jpg",
+      "is_available": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.dish",
+    "pk": 3,
+    "fields": {
+      "name": "Fettuccine Alfredo",
+      "description": "Fresh fettuccine in a rich parmesan cream sauce with cracked black pepper.",
+      "price": "16.00",
+      "category": 3,
+      "image": "/img/dishes/fettuccine-alfredo.jpg",
+      "is_available": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.dish",
+    "pk": 4,
+    "fields": {
+      "name": "Margherita Pizza",
+      "description": "San Marzano tomato sauce, fresh mozzarella, basil, and extra virgin olive oil.",
+      "price": "14.50",
+      "category": 4,
+      "image": "/img/dishes/margherita-pizza.jpg",
+      "is_available": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.dish",
+    "pk": 5,
+    "fields": {
+      "name": "Grilled Ribeye Steak",
+      "description": "12oz ribeye grilled to order, served with garlic mashed potatoes.",
+      "price": "28.00",
+      "category": 5,
+      "image": "/img/dishes/grilled-ribeye-steak.jpg",
+      "is_available": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.dish",
+    "pk": 6,
+    "fields": {
+      "name": "Pan-Seared Salmon",
+      "description": "Atlantic salmon with lemon butter sauce and roasted asparagus.",
+      "price": "22.50",
+      "category": 6,
+      "image": "/img/dishes/pan-seared-salmon.jpg",
+      "is_available": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.dish",
+    "pk": 7,
+    "fields": {
+      "name": "Tiramisu",
+      "description": "Espresso-soaked ladyfingers layered with mascarpone cream and cocoa.",
+      "price": "8.00",
+      "category": 7,
+      "image": "/img/dishes/tiramisu.jpg",
+      "is_available": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.dish",
+    "pk": 8,
+    "fields": {
+      "name": "House Red Wine (Glass)",
+      "description": "A smooth Italian Chianti blend, served chilled to order.",
+      "price": "9.00",
+      "category": 8,
+      "image": "/img/dishes/house-red-wine-glass.jpg",
+      "is_available": true,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.cart",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.cart",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.cart",
+    "pk": 3,
+    "fields": {
+      "user": 3,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.cart",
+    "pk": 4,
+    "fields": {
+      "user": 4,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.cart",
+    "pk": 5,
+    "fields": {
+      "user": 5,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.cart",
+    "pk": 6,
+    "fields": {
+      "user": 6,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.cart",
+    "pk": 7,
+    "fields": {
+      "user": 7,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.cart",
+    "pk": 8,
+    "fields": {
+      "user": 8,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.cartitem",
+    "pk": 1,
+    "fields": {
+      "cart": 1,
+      "dish": 4,
+      "quantity": 2,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.cartitem",
+    "pk": 2,
+    "fields": {
+      "cart": 1,
+      "dish": 7,
+      "quantity": 1,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.cartitem",
+    "pk": 3,
+    "fields": {
+      "cart": 2,
+      "dish": 3,
+      "quantity": 1,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.cartitem",
+    "pk": 4,
+    "fields": {
+      "cart": 3,
+      "dish": 5,
+      "quantity": 1,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.cartitem",
+    "pk": 5,
+    "fields": {
+      "cart": 4,
+      "dish": 1,
+      "quantity": 2,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.cartitem",
+    "pk": 6,
+    "fields": {
+      "cart": 5,
+      "dish": 6,
+      "quantity": 1,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.cartitem",
+    "pk": 7,
+    "fields": {
+      "cart": 6,
+      "dish": 2,
+      "quantity": 1,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.cartitem",
+    "pk": 8,
+    "fields": {
+      "cart": 7,
+      "dish": 8,
+      "quantity": 3,
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "order_type": "delivery",
+      "status": "completed",
+      "delivery_address": "482 Maple Street, Apt 3B, Springfield",
+      "phone": "555-201-4488",
+      "subtotal": "34.00",
+      "delivery_fee": "4.00",
+      "total_amount": "38.00",
+      "stripe_payment_intent_id": "pi_3NxKd2A1b2C3d4E5f6G7h8I9",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "order_type": "pickup",
+      "status": "ready",
+      "delivery_address": "",
+      "phone": "555-201-4488",
+      "subtotal": "22.50",
+      "delivery_fee": "0.00",
+      "total_amount": "22.50",
+      "stripe_payment_intent_id": "pi_3NxLe3B2c3D4e5F6g7H8i9J0",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 3,
+    "fields": {
+      "user": 2,
+      "order_type": "delivery",
+      "status": "out_for_delivery",
+      "delivery_address": "219 Birchwood Lane, Springfield",
+      "phone": "555-330-1192",
+      "subtotal": "28.00",
+      "delivery_fee": "4.00",
+      "total_amount": "32.00",
+      "stripe_payment_intent_id": "pi_3NxMf4C3d4E5f6G7h8I9j0K1",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 4,
+    "fields": {
+      "user": 3,
+      "order_type": "pickup",
+      "status": "preparing",
+      "delivery_address": "",
+      "phone": "555-412-7765",
+      "subtotal": "16.00",
+      "delivery_fee": "0.00",
+      "total_amount": "16.00",
+      "stripe_payment_intent_id": "pi_3NxNg5D4e5F6g7H8i9J0k1L2",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 5,
+    "fields": {
+      "user": 4,
+      "order_type": "delivery",
+      "status": "paid",
+      "delivery_address": "77 Oakridge Court, Springfield",
+      "phone": "555-558-3321",
+      "subtotal": "40.50",
+      "delivery_fee": "5.00",
+      "total_amount": "45.50",
+      "stripe_payment_intent_id": "pi_3NxOh6E5f6G7h8I9j0K1l2M3",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 6,
+    "fields": {
+      "user": 5,
+      "order_type": "pickup",
+      "status": "pending",
+      "delivery_address": "",
+      "phone": "555-607-9834",
+      "subtotal": "12.50",
+      "delivery_fee": "0.00",
+      "total_amount": "12.50",
+      "stripe_payment_intent_id": "",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 7,
+    "fields": {
+      "user": 6,
+      "order_type": "delivery",
+      "status": "cancelled",
+      "delivery_address": "350 Elmwood Drive, Springfield",
+      "phone": "555-714-2206",
+      "subtotal": "14.50",
+      "delivery_fee": "4.00",
+      "total_amount": "18.50",
+      "stripe_payment_intent_id": "pi_3NxPi7F6g7H8i9J0k1L2m3N4",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.order",
+    "pk": 8,
+    "fields": {
+      "user": 7,
+      "order_type": "pickup",
+      "status": "completed",
+      "delivery_address": "",
+      "phone": "555-820-5567",
+      "subtotal": "30.50",
+      "delivery_fee": "0.00",
+      "total_amount": "30.50",
+      "stripe_payment_intent_id": "pi_3NxQj8G7h8I9j0K1l2M3n4O5",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 1,
+    "fields": {
+      "order": 1,
+      "dish": 4,
+      "quantity": 2,
+      "price": "14.50",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 2,
+    "fields": {
+      "order": 1,
+      "dish": 7,
+      "quantity": 1,
+      "price": "8.00",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 3,
+    "fields": {
+      "order": 2,
+      "dish": 6,
+      "quantity": 1,
+      "price": "22.50",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 4,
+    "fields": {
+      "order": 3,
+      "dish": 5,
+      "quantity": 1,
+      "price": "28.00",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 5,
+    "fields": {
+      "order": 4,
+      "dish": 3,
+      "quantity": 1,
+      "price": "16.00",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 6,
+    "fields": {
+      "order": 5,
+      "dish": 6,
+      "quantity": 1,
+      "price": "22.50",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 7,
+    "fields": {
+      "order": 5,
+      "dish": 1,
+      "quantity": 1,
+      "price": "12.50",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.orderitem",
+    "pk": 8,
+    "fields": {
+      "order": 6,
+      "dish": 1,
+      "quantity": 1,
+      "price": "12.50",
+      "created_at": "2025-01-01T00:00:00Z",
+      "updated_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.reservation",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "date": "2024-02-14",
+      "time": "19:00:00",
+      "party_size": 2,
+      "status": "confirmed",
+      "notes": "Anniversary dinner, window seat requested.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.reservation",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "date": "2024-03-01",
+      "time": "12:30:00",
+      "party_size": 4,
+      "status": "pending",
+      "notes": "Business lunch, need a quiet table.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.reservation",
+    "pk": 3,
+    "fields": {
+      "user": 2,
+      "date": "2024-02-20",
+      "time": "18:30:00",
+      "party_size": 3,
+      "status": "confirmed",
+      "notes": "",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.reservation",
+    "pk": 4,
+    "fields": {
+      "user": 3,
+      "date": "2024-02-25",
+      "time": "20:00:00",
+      "party_size": 5,
+      "status": "pending",
+      "notes": "Birthday celebration, bringing a cake.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.reservation",
+    "pk": 5,
+    "fields": {
+      "user": 4,
+      "date": "2024-03-05",
+      "time": "17:45:00",
+      "party_size": 2,
+      "status": "cancelled",
+      "notes": "Plans changed, had to cancel.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.reservation",
+    "pk": 6,
+    "fields": {
+      "user": 5,
+      "date": "2024-02-18",
+      "time": "19:30:00",
+      "party_size": 6,
+      "status": "confirmed",
+      "notes": "Need a large table near the patio.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.reservation",
+    "pk": 7,
+    "fields": {
+      "user": 6,
+      "date": "2024-01-28",
+      "time": "13:00:00",
+      "party_size": 2,
+      "status": "completed",
+      "notes": "",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.reservation",
+    "pk": 8,
+    "fields": {
+      "user": 7,
+      "date": "2024-03-10",
+      "time": "20:30:00",
+      "party_size": 4,
+      "status": "pending",
+      "notes": "Vegetarian options needed for two guests.",
+      "updated_at": "2025-01-01T00:00:00Z",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  }
+]
